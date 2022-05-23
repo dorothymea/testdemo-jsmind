@@ -1,7 +1,17 @@
-# Vue 3 + Vite
+# vue3 + vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+拉取现有的 [vue-jsmind](https://github.com/chentoday/vue-jsmind) 
 
-## Recommended IDE Setup
+思路：
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+* 创建Props组件显示属性，实现属性的增删查改
+* 给jmnode节点绑定mouseover事件
+* 父子组件通过props参数传递进行通讯，确定Prop组件的显示位置、显示状态
+
+# 预览
+
+终端运行
+```
+yarn 
+yarn dev
+```
